@@ -1,5 +1,5 @@
 #include <iostream>
-#include <cstdio>
+#include <string>
 
 
 class FrameApi {
@@ -104,7 +104,7 @@ private:
 int main()
 {
 	GUIEngine* pEng = new GUIEngine;
-	pEng->prepareDraw(1, 2);
+	pEng->prepareDraw(1, 1);
 	if (nullptr != pEng) {
 		delete pEng;
 		pEng = nullptr;
