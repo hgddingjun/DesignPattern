@@ -1,0 +1,9 @@
+<6>[ 1219.029373]  |(1)[3136:main_thread]|[wlan][3137]|wlanTxCmdDoneCb:(TX INFO) Add command: 0000000083321db9, nicCmdEventQueryLinkSpeedEx [wlan_drv_gen4m], cmd=0x81, seq=81
+<6>[ 1219.033822]  |(1)[3136:main_thread]|[wlan][3136]|nicUpdateLinkQuality:(RLM INFO) Rssi=-50, NewRssi=-50
+<6>[ 1219.034579]  |(1)[3136:main_thread]|[wlan][3136]|nicGetPendingCmdInfo:(TX INFO) Get command: 0000000083321db9, nicCmdEventQueryLinkSpeedEx [wlan_drv_gen4m], cmd=0x81, seq=81
+<6>[ 1219.034607]  |(1)[3136:main_thread]|[wlan][3136]|soc5_0_get_rx_rate_info:(SW4 ERROR) prStaRecOfAP is null
+<6>[ 1219.035485]  |(1)[3136:main_thread]|[wlan][3136]|kalPerMonUpdate:(SW4 INFO) <1006ms> Tput: 1000(0.000mbps) [66:1:60:1][0:0:0:0][0:0:0:0][0:0:0:0] Pending:0/1024 [0:0:0:0][0:0:0:0][0:0:0:0][0:0:0:0] Used:0/2048/1024 [0][0][0][5][0] LQ[4823:6431:3953] lv:0 th:5 fg:0x9 Mo:[0:0:0:0] TxDp[ST:BS:FO:QM:DP]:0:0:0:0:3
+<6>[ 1219.035530]  |(1)[3136:main_thread]|[wlan][3136]|kalPerMonUpdate:(SW4 INFO) ndevdrp:[0:0:0:0][0:0:0:0][0:0:0:0][0:0:0:0] drv[RM,IL,RI,RT,RM,RW,RA,RB,DT,NS,IB,HS,LS,DD,ME,BD,NI,DR,TE,CE,DN,FE,DE,IE,TME]:11557,0,3701,3516,0,3296,181,0,42,0,0,0,0,0,0,3,0,39,0,0,42,0,0,0,0
+<6>[ 1219.036540] -|(1)[3136:main_thread]|[wlan][3136]|cnmTimerStartTimer:(CNM WARN) Invalid NextExpiredSysTime: 919144, currentSysTime: 919152
+<6>[ 1219.037325]  |(1)[3136:main_thread]|[wlan][3136]|cnmTimerDoTimeOutCheck:(CNM INFO) timer timeout, timer 000000006ab17e98 func kalPerMonHandler [wlan_drv_gen4m]
+<6>[ 1219.037361]  |(1)[3136:main_thread]|[wlan][3136]|kalSetPerfReport:(SW4 INFO) Rate[229][0][0][0] RCPI[116][0][0][0]
